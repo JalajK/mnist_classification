@@ -2,6 +2,12 @@
 
 The idea of this repo is to do a quick and easy build of a Docker container to perform online inference with trained machine learning models which in this case is pytorch image classification model using Python APIs with Flask.
 
+#To run the training: 
+python3 train.py
+
+#to run the flask app:
+python3 flaskapi.py
+
 #To run the dockerfile, use this command:
 docker image build -t flask_docker .
 
