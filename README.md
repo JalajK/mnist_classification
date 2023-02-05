@@ -1,6 +1,6 @@
 # mnist_classification
 
-The idea of this repo is to do a quick and easy build of a Docker container to perform online inference with trained machine learning models using Python APIs with Flask.
+The idea of this repo is to do a quick and easy build of a Docker container to perform online inference with trained machine learning models which in this case is a pytorch image classification model using Python APIs with Flask.
 
 #To run the dockerfile, use this command:
 docker image build -t flask_docker .
